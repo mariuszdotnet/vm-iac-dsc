@@ -1,4 +1,4 @@
-# vm-iac
+# vm-iac-dsc
 
 [DSC Overview](https://docs.microsoft.com/en-us/powershell/scripting/dsc/overview/overview?view=powershell-7.1)
 * [DSC Configuration](https://docs.microsoft.com/en-us/powershell/scripting/dsc/configurations/configurations?view=powershell-7.1)
