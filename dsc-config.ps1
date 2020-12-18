@@ -27,10 +27,10 @@ Set-AzVMDscExtension -Version "2.77" `
 
   #Good Example - https://marckean.com/2018/06/28/azure-automation-dsc-config-example/
 
+  #Work Locally with DSC
   Get-DscResource
   Get-DscLocalConfigurationManager
 
   Start-DscConfiguration -Path ScriptTest -Wait -Verbose -force
   Get-DscConfiguration -CimSession localhost
   Test-DscConfiguration -CimSession localhost
-  
